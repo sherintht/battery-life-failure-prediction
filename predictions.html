@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Battery Failure Predictions</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+    <h1>Battery Failure Predictions</h1>
+    <table>
+        <tr>
+            <th>Cycle</th>
+            <th>XGBoost Predicted Failure</th>
+            <th>XGBoost Probability</th>
+            <th>Ensemble Predicted Failure</th>
+            <th>Ensemble Probability</th>
+        </tr>
+        {% for pred in predictions %}
+        <tr>
+            <td>{{ pred.cycle }}</td>
+            <td>{{ pred.predicted_failure }}</td>
+            <td>{{ pred.xgb_prob }}</td>
+            <td>{{ pred.ensemble_predicted_failure }}</td>
+            <td>{{ pred.ensemble_prob }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

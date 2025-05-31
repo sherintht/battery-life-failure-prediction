@@ -1,0 +1,9 @@
+# Ignore the entire venv folder
+venv/
+
+# Ignore any large zip or CSV dataset 
+*.zip
+*.csv
+
+# (Optional) If you ever commit Jupyter checkpoints, you might also add:
+.ipynb_checkpoints/
