@@ -1,8 +1,7 @@
 # 🔋 Battery Failure Prediction Project ⚡
 
-Welcome to the **Battery Failure Prediction Project**, a cutting-edge solution to predict battery failures using the **NASA battery dataset**. This project leverages advanced machine learning techniques to deliver actionable insights, achieving a **perfect 100% accuracy** with an ensemble model. 
-
-Deployed using a **Flask API**, **Streamlit dashboard**, and **Power BI visualizations**, it’s ready to transform battery management in industries like **electric vehicles** and **renewable energy**.
+Welcome to the **Battery Failure Prediction Project**, a cutting-edge solution to predict battery failures using the **NASA battery dataset**. This project leverages advanced machine learning techniques to deliver actionable insights, achieving a **perfect 98% accuracy** with an ensemble model. 
+Predicts battery failure using NASA dataset with data processing, EDA, SMOTE, ML model tuning, and SHAP analysis. Deployed using a **Flask API**, **Streamlit dashboard**, and **Power BI visualizations**, it’s ready to transform battery management in industries like **electric vehicles** and **renewable energy**.
 
 ---
 
